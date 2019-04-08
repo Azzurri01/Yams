@@ -7,4 +7,23 @@ public class Staff {
     private String emailAddress;
     private boolean enabled;
 
+    private Staff(){
+
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
 }
