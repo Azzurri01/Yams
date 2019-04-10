@@ -1,43 +1,37 @@
 package local.acids.model;
 
-public class Staff {
+public class User {
 
+    private String userID;
     private String firstName;
     private String lastName;
     private String emailAddress;
-    private boolean staffAccountDisabled;
 
-    private Staff(){
-    }
+    private User(){}
 
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public String getEmailAddress() {
-        return emailAddress;
-    }
-
-    public boolean isStaffAccountDisabled() {
-        return staffAccountDisabled;
-    }
-
-    private Staff(Builder builder){
+    private User(Builder builder){
+        this.userID = builder.userID;
         this.firstName = builder.firstName;
         this.lastName = builder.lastName;
         this.emailAddress = builder.emailAddress;
-        this.staffAccountDisabled = builder.staffAccountDisabled;
     }
 
+    public String getUserID(){return userID;}
+    public String getFirstName(){return firstName;}
+    public String getLastName(){return lastName;}
+    public String getEmailAddress(){return emailAddress;}
+
     public static class Builder{
+
+        private String userID;
         private String firstName;
         private String lastName;
         private String emailAddress;
-        private boolean staffAccountDisabled;
+
+        public Builder userID(String userID){
+            this.userID = userID;
+            return this;
+        }
 
         public Builder firstName(String firstName){
             this.firstName = firstName;
@@ -54,24 +48,19 @@ public class Staff {
             return this;
         }
 
-        public Builder staffAccountDisabled(Boolean staffAccountDisabled){
-            this.staffAccountDisabled = staffAccountDisabled;
-            return this;
+        public User build(){
+            return new User(this);
         }
 
-        public Staff build(){
-            return new Staff(this);
-        }
     }
 
     @Override
     public String toString() {
-        return "Staff{" +
-                "firstName='" + firstName + '\'' +
+        return "User{" +
+                "userID=" + userID +
+                ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", emailAddress='" + emailAddress + '\'' +
-                ", staffAccountDisabled=" + staffAccountDisabled +
                 '}';
     }
-
 }
