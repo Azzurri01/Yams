@@ -7,7 +7,12 @@ public class StaffFactoryTest {
 
     @Test
     public void testCreateStaff(){
-        Staff s = new Staff();
-        Assert.assertNotNull(s);
+        String firstName = "Jonathan";
+        String lastName = "Theron";
+        String emailAddress = "jmtheron@gmail.com";
+
+        Staff s = StaffFactory.getStaff(firstName, lastName, emailAddress);
+        System.out.println(s);
+        Assert.assertEquals(firstName, s.getFirstName());
     }
 }
