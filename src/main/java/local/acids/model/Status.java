@@ -1,18 +1,16 @@
 package local.acids.model;
 
-public class Location {
+public class Status {
 
     private String id;
     private String name;
-    private String city;
 
-    private Location() {
+    private Status() {
     }
 
-    private Location(Builder builder) {
+    private Status(Builder builder) {
         this.id = builder.id;
         this.name = builder.name;
-        this.city = builder.city;
     }
 
     public String getId() {
@@ -23,14 +21,9 @@ public class Location {
         return name;
     }
 
-    public String getCity() {
-        return city;
-    }
-
     public static class Builder {
         private String id;
         private String name;
-        private String city;
 
         public Builder id(String id) {
             this.id = id;
@@ -42,22 +35,16 @@ public class Location {
             return this;
         }
 
-        public Builder city(String city) {
-            this.city = city;
-            return this;
-        }
-
-        public Location build() {
-            return new Location(this);
+        public Status build() {
+            return new Status(this);
         }
     }
 
     @Override
     public String toString() {
-        return "Location{" +
+        return "Status{" +
                 "id='" + id + '\'' +
                 ", name='" + name + '\'' +
-                ", city='" + city + '\'' +
                 '}';
     }
 }
