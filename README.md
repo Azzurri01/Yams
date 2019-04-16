@@ -6,9 +6,17 @@ The IT asset management application programmable interface (API) Asterisk for Ja
 Description
 -----------
 
-Acids is an IT asset management (ITAM) interface available on Github that lets you add assets to a mysql relational database. Organizations often lack visibility of IT assets’ locations, and the users that use them. This lack of visibility can lead to assets being lost or stolen without anyone being held accountable.
+Acids is an IT asset management (ITAM) interface available on Github that lets you add assets to a mysql relational database. Organizations often lack visibility of IT assets’ locations, and the users that use them. This lack of visibility can lead to hardware assets being lost or stolen without anyone being held accountable.
 
-The application that I will be developing will be an application programmable interface (API) for an IT asset management (ITAM), this will improve the visibility and accountability of IT assets in an organization.
+The application that I will be developing will be an application programmable interface (API) for an IT asset management (ITAM), this will improve the visibility and accountability of hardware IT assets in an organization.
+
+## UML
+
+![name](https://github.com/jmtheron/acids/blob/master/acidsUML-2019-04-15.png)
+
+### Editing UML
+
+The UML below *fig.1* was created in [Draw.io](https://www.draw.io), to edit it download the file.
 
 ## Stakeholders
 
@@ -17,6 +25,47 @@ The application that I will be developing will be an application programmable in
 + Asset manager
 + System analyst
 + System designer
+
+## Directory Tree
+
+.				   - You are here ;-)
+├── diagrams 	    - Source files for diagrams
+├── images		- Images used in README.md
+├── src
+│   ├── main
+│   │   └── java
+│   │       └── local
+│   │           └── acids
+│   │               ├── factory
+│   │               ├── model
+│   │               ├── repository
+│   │               ├── service
+│   │               └── util
+│   └── test
+│       └── java
+│           └── local
+│               └── acids
+│                   ├── factory
+│                   ├── model
+│                   ├── repository
+│                   └── service
+└── target
+    ├── classes
+    │   ├── META-INF
+    │   └── local
+    │       └── acids
+    │           ├── factory
+    │           ├── model
+    │           └── util
+    ├── generated-sources
+    │   └── annotations
+    ├── generated-test-sources
+    │   └── test-annotations
+    └── test-classes
+        ├── META-INF
+        └── local
+            └── acids
+                └── factory
 
 ## Classes
 
@@ -44,7 +93,7 @@ The application that I will be developing will be an application programmable in
 22. PurchaceOrder
 23. Currency
 24. Note
-25. 
+25. Misc
 
 Similar & Interesting projects
 ------------------------------
