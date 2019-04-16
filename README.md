@@ -26,46 +26,13 @@ The UML below *fig.1* was created in [Draw.io](https://www.draw.io), to edit it 
 + System analyst
 + System designer
 
-## Directory Tree
+## 
 
-.				   - You are here ;-)
-├── diagrams 	    - Source files for diagrams
-├── images		- Images used in README.md
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── local
-│   │           └── acids
-│   │               ├── factory
-│   │               ├── model
-│   │               ├── repository
-│   │               ├── service
-│   │               └── util
-│   └── test
-│       └── java
-│           └── local
-│               └── acids
-│                   ├── factory
-│                   ├── model
-│                   ├── repository
-│                   └── service
-└── target
-    ├── classes
-    │   ├── META-INF
-    │   └── local
-    │       └── acids
-    │           ├── factory
-    │           ├── model
-    │           └── util
-    ├── generated-sources
-    │   └── annotations
-    ├── generated-test-sources
-    │   └── test-annotations
-    └── test-classes
-        ├── META-INF
-        └── local
-            └── acids
-                └── factory
+## Additional files and folders
+
+Source files for diagrams are stored in the diagrams directory
+
+Images used in README.md
 
 ## Classes
 
