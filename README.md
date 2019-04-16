@@ -46,7 +46,6 @@ The application that I will be developing will be an application programmable in
 24. Note
 25. 
 
-
 Similar & Interesting projects
 ------------------------------
 
