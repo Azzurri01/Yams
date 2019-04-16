@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/SupplierFactoryTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/CityFactoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+            <state relative-caret-position="221">
+              <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,25 +25,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/Supplier.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/City.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="25" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="527">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
               <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="method#cityId#0;class#Builder#0;class#City#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/SupplierFactory.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/CityFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +110,15 @@
         <option value="$PROJECT_DIR$/src/main/java/local/acids/factory/SupplierFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/local/acids/factory/SupplierFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/local/acids/model/BrandFactoryTets.java" />
+        <option value="$PROJECT_DIR$/src/test/java/local/acids/factory/AddressFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/factory/AddressFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/test/java/local/acids/factory/BrandFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/model/Brand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/factory/BrandFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/local/acids/factory/CityFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/model/City.java" />
+        <option value="$PROJECT_DIR$/src/main/java/local/acids/factory/CityFactory.java" />
       </list>
     </option>
   </component>
@@ -237,7 +247,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555449894809" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555454186317" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -321,20 +331,11 @@
       <workItem from="1554914162869" duration="5576000" />
       <workItem from="1554996541964" duration="1212000" />
       <workItem from="1555230274463" duration="15637000" />
-      <workItem from="1555355949662" duration="7200000" />
+      <workItem from="1555355949662" duration="10432000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AssetFactoryTest_testCreateAsset - 2019.04.14 at 13h 51m 23s.xml">
-      <configuration name="AssetFactoryTest.testCreateAsset" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AssetFactoryTest_testCreateAsset - 2019.04.14 at 15h 00m 32s.xml">
-      <configuration name="AssetFactoryTest.testCreateAsset" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testAll - 2019.04.14 at 15h 00m 53s.xml">
-      <configuration name="testAll" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="testAll - 2019.04.14 at 15h 02m 02s.xml">
       <configuration name="testAll" configurationId="JUnit" />
     </history-entry>
@@ -356,9 +357,18 @@
     <history-entry file="testAll - 2019.04.16 at 23h 24m 16s.xml">
       <configuration name="testAll" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="testAll - 2019.04.17 at 00h 16m 52s.xml">
+      <configuration name="testAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testAll - 2019.04.17 at 00h 19m 15s.xml">
+      <configuration name="testAll" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testAll - 2019.04.17 at 00h 29m 04s.xml">
+      <configuration name="testAll" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34271000" />
+    <option name="totallyTimeSpent" value="37503000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,7 +398,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32850242" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2658092" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2647374" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3279743" />
@@ -770,6 +780,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/BrandFactoryTets.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/SupplierFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -793,13 +806,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/BrandFactoryTets.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/SupplierFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/AddressFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="69" selection-start-line="7" selection-start-column="61" selection-end-line="7" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/AddressFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#382#383#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/BrandFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+          <folding>
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="method#brandId#0;class#Builder#0;class#Brand#0" />
+            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/BrandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/local/acids/factory/CityFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="52" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/model/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="method#cityId#0;class#Builder#0;class#City#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/local/acids/factory/CityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
