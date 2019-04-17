@@ -65,3 +65,38 @@ Similar & Interesting projects
 
 * AstAryPy - a Python library - https://github.com/allegro/ralph
 * AstAryPy - a Python library - https://github.com/snipe/snipe-it
+
+# Todo
+Devide the classes into 
+
+## Value objects
++ Asset
++ User
++ Customer
++ Staff
+
+## Entities
+### Asset
++  
+
+Not all classes are value objects
+Entities don't usually have Id's
+Generate Hash for Values objects, this is used to uniquly identify objects by them.
+You'll also implement comparable<class> in the repository.
+
+
+## For example
+### Student - Class is a value object
+private Name name = NameFactory.getName();
+
+### Name - Class is a Entity
++ firstname
++ lastName
+
+Contact
++ Address
++ Phone
+
+
+Link them using composition
+
