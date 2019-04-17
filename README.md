@@ -26,8 +26,6 @@ The UML below *fig.1* was created in [Draw.io](https://www.draw.io), to edit it 
 + System analyst
 + System designer
 
-## 
-
 ## Additional files and folders
 
 Source files for diagrams are stored in the diagrams directory
@@ -36,31 +34,31 @@ Images used in README.md
 
 ## Classes
 
-1. Asset
-2. Employee
-3. User
-4. Customer
-5. Checkout
-6. Department
-7. Address
-8. Company
-9. State
-10. City
-11. Site
-12. Location
-13. Event
-14. Status
-15. Maintenance
-16. Lease
-17. Brand
-18. Model
-19. Country
-20. Warranty
-21. Supplier
-22. PurchaceOrder
-23. Currency
-24. Note
-25. Misc
+1. Address
+2.  Asset
+3.  Brand
+4.  Checkout
+5.  City
+6.  Company
+7.  Country
+8.  Currency
+9.  Customer
+10.  Department
+11.  Employee
+12.  Event
+13.  Lease
+14.  Location
+15.  Maintenance
+16.  Misc
+17.  Model
+18.  Note
+19.  PurchaceOrder
+20.  Site
+21.  State
+22.  Status
+23.  Supplier
+24.  User
+25.  Warranty
 
 Similar & Interesting projects
 ------------------------------
