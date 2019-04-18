@@ -63,8 +63,9 @@ Images used in README.md
 Similar & Interesting projects
 ------------------------------
 
-* AstAryPy - a Python library - https://github.com/allegro/ralph
-* AstAryPy - a Python library - https://github.com/snipe/snipe-it
+* Ralph - https://github.com/allegro/ralph
+* Snipe-it - https://github.com/snipe/snipe-it
+* Binstack - https://source.netsyms.com/Business/BinStack
 
 # Todo
 Devide the classes into 
@@ -77,7 +78,9 @@ Devide the classes into
 
 ## Entities
 ### Asset
-+  
++ id
++ name
+ 
 
 Not all classes are value objects
 Entities don't usually have Id's
