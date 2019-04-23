@@ -11,6 +11,8 @@ public class Asset {
     private String updatedAt;
     private String deletedAt;
     private String serial;
+    private Location location;
+    private Supplier supplier;
 
     private Asset() {
     }
@@ -25,6 +27,8 @@ public class Asset {
         this.updatedAt = builder.updatedAt;
         this.deletedAt = builder.deletedAt;
         this.serial = builder.serial;
+        this.location = builder.location;
+        this.supplier = builder.supplier;
     }
 
     public String getId() {
@@ -63,6 +67,13 @@ public class Asset {
         return serial;
     }
 
+    public Location getLocation() {
+        return location;
+    }
+
+    public Supplier getSupplier() {
+        return supplier;
+    }
 
     public static class Builder {
         private String id;
@@ -74,6 +85,8 @@ public class Asset {
         private String updatedAt;
         private String deletedAt;
         private String serial;
+        private Location location;
+        private Supplier supplier;
 
         public Builder id(String id) {
             this.id = id;
@@ -120,9 +133,21 @@ public class Asset {
             return this;
         }
 
-        public Asset build(){
+        public Builder location(Location location) {
+            this.location = location;
+            return this;
+        }
+
+        public Builder supplier(Supplier supplier) {
+            this.supplier = supplier;
+            return this;
+        }
+
+        public Asset build() {
             return new Asset(this);
         }
+
+
     }
 
     @Override
@@ -137,6 +162,8 @@ public class Asset {
                 ", updatedAt='" + updatedAt + '\'' +
                 ", deletedAt='" + deletedAt + '\'' +
                 ", serial='" + serial + '\'' +
+                ", location=" + location +
+                ", supplier=" + supplier +
                 '}';
     }
 }
