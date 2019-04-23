@@ -1,22 +1,3 @@
-
- ,ggg,         gg            ,ggg,  ,ggg, ,ggg,_,ggg,        ,gg,   
-dP""Y8a        88           dP""8I dP""Y8dP""Y88P""Y8b      i8""8i  
-Yb, `88        88          dP   88 Yb, `88'  `88'  `88      `8,,8'  
- `"  88        88         dP    88  `"  88    88    88       `88'   
-     88        88        ,8'    88      88    88    88       dP"8,  
-     88        88        d88888888      88    88    88      dP' `8a 
-     88       ,88  __   ,8"     88      88    88    88     dP'   `Yb
-     Y8b,___,d888 dP"  ,8P      Y8      88    88    88 _ ,dP'     I8
-      "Y88888P"88,Yb,_,dP       `8b,    88    88    Y8,"888,,____,dP
-           ,ad8888 "Y8P"         `Y8    88    88    `Y8a8P"Y88888P" 
-          d8P" 88                                                   
-        ,d8'   88                                                   
-        d8'    88                                                   
-        88     88                                                   
-        Y8,_ _,88                                                   
-         "Y888P"                                                    
-     
-
 Yet another Asset Management System (Yams)
 ========
 
