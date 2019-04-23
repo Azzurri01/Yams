@@ -1,4 +1,4 @@
-Yet another Asset Management System (Yams)
+Yet another Asset Management System (YAMS)
 ========
 
 The IT asset management application programmable interface (API) Asterisk for Java.
